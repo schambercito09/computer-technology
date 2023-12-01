@@ -1,0 +1,410 @@
+/*colores*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*header*/
+header {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+header .logo {
+  width: 150px;
+  height: 150px;
+  margin: 5px 5px 0px 10px;
+}
+header nav {
+  width: 90%;
+}
+header nav .colorNav {
+  background-color: white;
+}
+
+/* index */
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: black;
+  background-color: gray;
+  padding: 150px;
+}
+
+.section-oferta {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.section-oferta .section-oferta-imagen {
+  width: 500px;
+  height: 500px;
+}
+
+h3 {
+  color: black;
+  background-color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+h4 {
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.perisfericos {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.perisfericos .auricular {
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+}
+.perisfericos .mouse {
+  width: 300px;
+  height: 300px;
+}
+.perisfericos .teclado {
+  width: 300px;
+  height: 300px;
+}
+
+.celulares {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.celulares .xiaomi {
+  width: 300px;
+  height: 300px;
+}
+.celulares .xiaomi1 {
+  width: 300px;
+  height: 300px;
+}
+.celulares .xiaomi2 {
+  width: 300px;
+  height: 300px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+
+/*footer*/
+.footer {
+  padding: 20px;
+  background-color: white;
+}
+.footer .telefono {
+  width: 100px;
+  height: 100px;
+}
+.footer .instagram {
+  width: 50px;
+  height: 50px;
+}
+.footer .facebook {
+  width: 40px;
+  height: 40px;
+}
+
+/* nostros */
+.main-nosotros .titulo-equipa {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+.main-nosotros .grid-padre {
+  display: grid;
+  grid-template-areas: "texto1  img1    img1" "texto2  texto2  texto2" "img2    img3    img4";
+  grid-template-columns: 25% 40% 25%;
+  grid-template-rows: 150px 300px 300px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  row-gap: 5px;
+  column-gap: 15px;
+}
+.main-nosotros .grid-padre img {
+  width: 100%;
+  height: 100%;
+}
+.main-nosotros .grid-padre .grid-text-1 {
+  grid-area: texto1;
+  text-align: center;
+  font-size: 20px;
+}
+.main-nosotros .grid-padre .grid-igm-1 {
+  grid-area: img1;
+}
+.main-nosotros .grid-padre .grid-text-2 {
+  grid-area: texto2;
+  text-align: center;
+  font-size: 20px;
+}
+.main-nosotros .grid-padre .grid-igm-2 {
+  grid-area: img2;
+}
+.main-nosotros .grid-padre .grid-igm-3 {
+  grid-area: img3;
+}
+.main-nosotros .grid-padre .grid-igm-4 {
+  grid-area: img4;
+}
+.main-nosotros .pq {
+  text-align: center;
+}
+.main-nosotros .video {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/*productos*/
+.main-producto .grid-padre-2 {
+  display: grid;
+  grid-template-areas: "texto10  card1    card2   card3" "texto10  card4    card5   card6" "texto10  card7    card8   card9" "texto10  card10   card11  card12";
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20%;
+  justify-content: left;
+  justify-items: center;
+  row-gap: 65px;
+  column-gap: 65px;
+}
+.main-producto .grid-padre-2 .texto-10 {
+  grid-area: texto10;
+  text-align: left;
+  font-size: 40px;
+}
+.main-producto .grid-padre-2 .card-1 {
+  grid-area: card1;
+}
+.main-producto .grid-padre-2 .card-2 {
+  grid-area: card2;
+}
+.main-producto .grid-padre-2 .card-3 {
+  grid-area: card3;
+}
+.main-producto .grid-padre-2 .card-4 {
+  grid-area: card4;
+}
+.main-producto .grid-padre-2 .card-5 {
+  grid-area: card5;
+}
+.main-producto .grid-padre-2 .card-6 {
+  grid-area: card6;
+}
+.main-producto .grid-padre-2 .card-7 {
+  grid-area: card7;
+}
+.main-producto .grid-padre-2 .card-8 {
+  grid-area: card8;
+}
+.main-producto .grid-padre-2 .card-9 {
+  grid-area: card9;
+}
+.main-producto .grid-padre-2 .card-10 {
+  grid-area: card10;
+}
+.main-producto .grid-padre-2 .card-11 {
+  grid-area: card11;
+}
+.main-producto .grid-padre-2 .card-12 {
+  grid-area: card12;
+}
+
+/*Sucursales*/
+.grid-sucursales {
+  display: grid;
+  grid-template-areas: "titulo102    titulo103" "mapa         acordeon";
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 5% 5%;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 65px;
+  column-gap: 65px;
+  padding-bottom: 200px;
+}
+.grid-sucursales .sede {
+  grid-area: titulo102;
+}
+.grid-sucursales .sede-ubicacion {
+  grid-area: mapa;
+}
+.grid-sucursales .sucursal {
+  grid-area: titulo103;
+}
+.grid-sucursales .accordion {
+  grid-area: acordeon;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-producto header {
+    flex-direction: column;
+  }
+  .main-producto header nav {
+    width: 100%;
+  }
+  .main-producto header ul {
+    margin-left: 8px;
+  }
+  .main-producto .grid-padre-2 {
+    grid-template-areas: "texto10" "card1" "card2" "card3" "card4" "card5" "card6" "card7" "card8" "card9" "card10" "card11" "card12";
+    grid-template-columns: 90%;
+    grid-template-rows: 100px repeat(13, 200px);
+    row-gap: 280px;
+  }
+  .main-producto .grid-padre-2 .texto-10 {
+    grid-area: texto10;
+    text-align: center;
+    font-size: 15px;
+  }
+  .main-producto header {
+    flex-direction: column;
+  }
+  .main-producto header nav {
+    width: 100%;
+  }
+  .main-producto header ul {
+    margin-left: 8px;
+  }
+  /* grid nosotros */
+  .main-nosotros .grid-padre {
+    grid-template-areas: "texto1" "img1" "texto2" "img2" "img3" "img4";
+    grid-template-columns: 90%;
+    grid-template-rows: 100px repeat(4, 200px);
+    row-gap: 60px;
+  }
+  .main-nosotros .grid-padre .grid-text-1 {
+    grid-area: texto1;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 40px;
+  }
+  .main-nosotros .grid-padre .grid-text-2 {
+    grid-area: texto2;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  /*index*/
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: gray;
+    padding: 60px;
+  }
+  .section-oferta .section-oferta-imagen {
+    width: 250px;
+    height: 250px;
+  }
+  .perisfericos {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .perisfericos .auricular {
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+  }
+  .perisfericos .mouse {
+    width: 100px;
+    height: 100px;
+  }
+  .perisfericos .teclado {
+    width: 100px;
+    height: 100px;
+  }
+  .celulares {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+  }
+  .celulares .xiaomi {
+    width: 100px;
+    height: 100px;
+  }
+  .celulares .xiaomi1 {
+    width: 100px;
+    height: 100px;
+  }
+  .celulares .xiaomi2 {
+    width: 100px;
+    height: 100px;
+  }
+  /*sucursales*/
+  .grid-sucursales {
+    display: grid;
+    grid-template-areas: "titulo102" "mapa" "titulo103" "acordeon";
+    grid-template-columns: 80%;
+    grid-template-rows: 5%;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 65px;
+    column-gap: 65px;
+    padding-bottom: 200px;
+  }
+  .grid-sucursales .sede {
+    grid-area: titulo102;
+  }
+  .grid-sucursales .sede-ubicacion {
+    grid-area: mapa;
+  }
+  .grid-sucursales .sucursal {
+    grid-area: titulo103;
+  }
+  .grid-sucursales .accordion {
+    grid-area: acordeon;
+  }
+  .grid-sucursales .sede-ubicacion {
+    width: 200px;
+    height: 200px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */

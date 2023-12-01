@@ -1,0 +1,106 @@
+/* index */
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: $negro;
+    background-color: $gris;
+    padding: 150px;
+
+}
+
+.section-oferta{
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+    
+    .section-oferta-imagen{
+        width: 500px;
+        height: 500px;
+        
+        }
+  
+    }
+
+h3{
+    color: $negro;
+    background-color: $gris;
+    font-family: $font;
+    padding: 30px ;
+    text-align: center;
+}
+h4{
+    color: whitesmoke;
+    font-family: $font;
+    background-color: $gris;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.perisfericos{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .auricular{
+        width: 300px;
+        height: 300px;  
+        margin: 0px auto;
+        
+    }
+    .mouse{
+        width: 300px;
+        height: 300px;     
+    }
+        
+    .teclado{
+        width: 300px;
+        height: 300px;  
+    }
+
+}
+
+.celulares{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .xiaomi{
+        width: 300px;
+        height: 300px;  
+    }
+    
+    .xiaomi1{
+        width: 300px;
+        height: 300px;
+    }
+    .xiaomi2{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    font-family: $font;
+
+}
+
+p{
+    color: $negro;
+    font-family: $font;
+    text-decoration: none;
+
+}

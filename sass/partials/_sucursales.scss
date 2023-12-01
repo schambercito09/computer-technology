@@ -1,0 +1,38 @@
+/*Sucursales*/
+
+
+
+
+.grid-sucursales{
+    display: grid;
+    grid-template-areas: 
+    "titulo102    titulo103"
+    "mapa         acordeon"
+    
+    ;
+    
+   grid-template-columns: 40% 40% ;
+   grid-template-rows: 5% 5% ;
+    justify-content: center;
+    justify-items:center ;
+    
+    row-gap: 65px;
+    column-gap: 65px;
+    padding-bottom: 200px;
+
+    .sede{
+        grid-area: titulo102;
+    }
+
+    .sede-ubicacion{
+        grid-area: mapa;
+    }
+
+    .sucursal{
+        grid-area: titulo103;
+        
+    }
+    .accordion{
+        grid-area: acordeon;
+    }
+}

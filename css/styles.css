@@ -358,7 +358,7 @@ column-gap: 15px;
 
 /* mobile */
 
-@media (max-width:500px){
+@media only screen and (max-width:500px){
     header{
         flex-direction: column;
     }
@@ -405,7 +405,7 @@ column-gap: 15px;
 
 }
 
-@media (max-width:500px){
+@media only screen and (max-width:500px){
    
 .grid-padre-2{
 
@@ -438,11 +438,4 @@ column-gap: 15px;
 }
 
 }
-
-
-
-    
-
-
-
 

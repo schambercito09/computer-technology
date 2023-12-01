@@ -1,0 +1,77 @@
+/*productos*/
+
+.main-producto{
+    .grid-padre-2{
+        display: grid;
+        grid-template-areas: 
+        "texto10  card1    card2   card3"
+        "texto10  card4    card5   card6"
+        "texto10  card7    card8   card9"
+        "texto10  card10   card11  card12"
+        ;
+        
+       grid-template-columns: 20% 20% 20% 20%;
+       grid-template-rows: 20% 20% 20% 20%;
+        justify-content: left;
+        justify-items:center ;
+        
+        row-gap: 65px;
+        column-gap: 65px;
+
+        .texto-10{
+            grid-area: texto10;
+            text-align: left;
+            font-size: 40px;
+        }
+
+        .card-1{
+            grid-area: card1;
+        }
+    
+        .card-2{
+            grid-area: card2;
+        }
+        
+        .card-3{
+            grid-area: card3;
+        }
+    
+        .card-4{
+            grid-area: card4;
+        }
+    
+        .card-5{
+            grid-area: card5;
+        }
+    
+        .card-6{
+            grid-area: card6;
+        }
+    
+        .card-7{
+            grid-area: card7;
+        }
+    
+        .card-8{
+            grid-area: card8;
+        }
+    
+        .card-9{
+            grid-area: card9;
+        }
+    
+        .card-10{
+            grid-area: card10;
+        }
+    
+        .card-11{
+            grid-area: card11;
+        }
+    
+        .card-12{
+            grid-area: card12;
+        }
+    
+        
+    }
+}

@@ -1,0 +1,201 @@
+@media only screen and (max-width:500px){
+    
+    
+    .main-producto{
+      header{
+          flex-direction: column;
+          nav{
+              width: 100%;
+          }
+          ul{
+              margin-left: 8px;
+          }
+  
+      }
+  
+      .grid-padre-2{
+  
+          grid-template-areas: 
+          "texto10"
+          "card1"
+          "card2"
+          "card3"
+          "card4"
+          "card5"
+          "card6"
+          "card7"
+          "card8"
+          "card9"
+          "card10"
+          "card11"
+          "card12";
+      
+          grid-template-columns: 90%;
+          grid-template-rows: 100px repeat(13, 200px);
+          row-gap: 280px;
+  
+          .texto-10{
+              grid-area: texto10;
+              text-align: center;
+              font-size: 15px;
+          }
+          
+          
+      }
+      header{
+          flex-direction: column;
+          nav{
+              width: 100%;
+          }
+          ul{
+              margin-left: 8px;
+          } 
+      }
+  }
+      /* grid nosotros */
+  
+      .main-nosotros{
+      .grid-padre{
+  
+          grid-template-areas: 
+          "texto1"
+          "img1"
+          "texto2"
+          "img2"
+          "img3"
+          "img4";
+      
+          grid-template-columns: 90%;
+          grid-template-rows: 100px repeat(4, 200px);
+          row-gap: 60px;
+  
+          .grid-text-1{
+              grid-area: texto1;
+              text-align: center;
+              font-size: 12px;
+              margin-top: 40px;
+          }
+          .grid-text-2{
+              grid-area: texto2;
+              text-align: center;
+              font-size: 15px;
+              margin-top: 40px;
+          }
+      
+      }
+   } 
+  
+   /*index*/
+      h1 {
+          font-size: 20px;
+          text-align: center;
+          color: $negro;
+          background-color: $gris;
+          padding: 60px;
+      }
+      .section-oferta{
+  
+          .section-oferta-imagen {
+          width: 250px;
+          height: 250px;
+          }
+  
+      }
+      .perisfericos{
+          list-style: none;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          
+         
+          
+      
+          .auricular{
+              width: 100px;
+              height: 100px;  
+              margin: 0px auto;
+              
+          }
+          .mouse{
+              width: 100px;
+              height: 100px;     
+          }
+              
+          .teclado{
+              width: 100px;
+              height: 100px;  
+          }
+      
+      }
+      
+      .celulares{
+          list-style: none;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+        
+          margin: 50px;
+      
+          .xiaomi{
+              width: 100px;
+              height: 100px;  
+          }
+          
+          .xiaomi1{
+              width: 100px;
+              height: 100px;
+          }
+          .xiaomi2{
+              width: 100px;
+              height: 100px;
+          }
+      }
+     
+  /*sucursales*/
+  
+  .grid-sucursales{
+      display: grid;
+      grid-template-areas: 
+      "titulo102"
+      "mapa"
+      "titulo103"
+      "acordeon"
+  
+      ;
+      
+     grid-template-columns: 80% ;
+     grid-template-rows: 5% ;
+      justify-content: center;
+      justify-items:center ;
+      
+      row-gap: 65px;
+      column-gap: 65px;
+      padding-bottom: 200px;
+  
+      .sede{
+          grid-area: titulo102;
+      }
+  
+      .sede-ubicacion{
+          grid-area: mapa;
+      }
+  
+      .sucursal{
+          grid-area: titulo103;
+          
+      }
+      .accordion{
+          grid-area: acordeon;
+      }
+  
+      .sede-ubicacion{
+          width: 200px;
+          height: 200px;
+      }
+  }
+  
+  }
