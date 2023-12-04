@@ -1,6 +1,15 @@
 /*productos*/
 
 .main-producto{
+
+    .titulo-producto{
+        font-size: 80px;
+        text-align: center;
+        color: $negro;
+        background-color: $gris;
+        margin-bottom: 100px;
+        padding: 20px;
+    }
     .grid-padre-2{
         display: grid;
         grid-template-areas: 
@@ -22,6 +31,9 @@
             grid-area: texto10;
             text-align: left;
             font-size: 40px;
+            .lista-1{
+                text-decoration: none;
+            }
         }
 
         .card-1{

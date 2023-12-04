@@ -1,19 +1,38 @@
 /*footer*/
-.footer{
-    padding: 20px;
-    background-color: $blanco;
 
-    .telefono{
-        width: 100px;
-        height: 100px;
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $gris;
+    padding: 20px;
+
+
+    .redes{
+        .instagram{
+            width: 40px;
+            height: 40px;
+        }
+        .facebook{
+            width: 40px;
+            height: 40px;
+        }
+        
+        .twitter{
+            width: 40px;
+            height: 40px;
+        }
+        .youtube{
+            width: 40px;
+            height: 40px;
+        }
+        .linkedin{
+            width: 40px;
+            height: 40px;
+        }
     }
-    .instagram{
-        width: 50px;
-        height: 50px;
-    }
-    .facebook{
-        width: 40px;
-        height: 40px;
-    }
-      
+   
+
 }

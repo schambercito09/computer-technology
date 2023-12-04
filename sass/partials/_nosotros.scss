@@ -3,7 +3,8 @@
 .main-nosotros{
     .titulo-equipa{
         text-align: center;
-        padding: 20px;
+        padding: 30px;
+        margin: 20px;
         color: $blanco;
         background-color: $negro;
     
@@ -69,5 +70,7 @@
         display: flex; 
         width: 100%;
         justify-content: center;
+        margin: 20px;
+     
     }
 }

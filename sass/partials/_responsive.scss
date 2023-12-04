@@ -2,6 +2,13 @@
     
     
     .main-producto{
+        .titulo-producto{
+            font-size: 20px;
+            text-align: center;
+            color: $negro;
+            background-color: $gris;
+            padding: 20px;
+        }
       header{
           flex-direction: column;
           nav{
@@ -54,7 +61,7 @@
   }
       /* grid nosotros */
   
-      .main-nosotros{
+    .main-nosotros{
       .grid-padre{
   
           grid-template-areas: 
@@ -81,12 +88,28 @@
               font-size: 15px;
               margin-top: 40px;
           }
-      
+          .grid-igm-2{
+            width: 250px;
+            height: 250px;
+          }
+          .grid-igm-3{
+            width: 250px;
+            height: 250px;
+          }
+          .grid-igm-4{
+            width: 230px;
+            height: 230px;
+          }
       }
-   } 
+      .video{
+        padding: 0px;
+        margin: 0px;
+
+      }
+    } 
   
    /*index*/
-      h1 {
+     .titulo-oferta{
           font-size: 20px;
           text-align: center;
           color: $negro;
@@ -198,4 +221,54 @@
       }
   }
   
+  /*footer*/
+    .info{
+        margin-top: 20px;
+        .sugerencias{
+            .ayuda-1{
+                font-size: 12px;
+            }
+        }
+
+        .boton{
+            .trabaja-1{
+                font-size: 12px;
+            }
+            .arrepentite-1{
+                font-size: 12px;
+            }
+        }
+
+        .redes{
+            .Seguinos{
+                font-size: 12px;
+            }
+            .instagram{
+                width: 20px;
+                height: 20px;
+            }
+            .facebook{
+                width: 20px;
+                height: 20px;
+            }
+            
+            .twitter{
+                width: 20px;
+                height: 20px;
+            }
+            .youtube{
+                width: 20px;
+                height: 20px;
+            }
+            .linkedin{
+                width: 20px;
+                height: 20px;
+            }
+
+        }
+    
+    
+    
+
+    }
   }
