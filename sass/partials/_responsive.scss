@@ -8,6 +8,7 @@
             color: $negro;
             background-color: $gris;
             padding: 20px;
+            
         }
       header{
           flex-direction: column;
@@ -40,6 +41,7 @@
           grid-template-columns: 90%;
           grid-template-rows: 100px repeat(13, 200px);
           row-gap: 280px;
+        
   
           .texto-10{
               grid-area: texto10;
@@ -223,7 +225,8 @@
   
   /*footer*/
     .info{
-        margin-top: 20px;
+        margin-top: 200px;
+       
         .sugerencias{
             .ayuda-1{
                 font-size: 12px;

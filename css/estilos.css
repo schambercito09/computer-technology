@@ -129,6 +129,7 @@ p {
   align-items: center;
   background-color: gray;
   padding: 20px;
+  margin-top: 150px;
 }
 .info .redes .instagram {
   width: 40px;
@@ -470,7 +471,7 @@ p {
   }
   /*footer*/
   .info {
-    margin-top: 20px;
+    margin-top: 200px;
   }
   .info .sugerencias .ayuda-1 {
     font-size: 12px;
